@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-image: url("background_imag.jpg");
+        background-size: cover;
+      }
+      .center-box {
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+        background-color: none;
+        text-align: center;
+        box-shadow: 0 0 10px gray;
+      }
+      h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      table {
+        margin: 20px auto;
+        width: 80%;
+        text-align: left;
+      }
+      th, td {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body style="color: white">
+    <div class="center-box">
+  <h1><strong><center>FORMS</center></strong></h1>
+  <form action="fifth.html">
+    <strong>
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="fname" autocomplete="on" required><br>
+    <label for="lname">Last Name:</label><br>
+    <input type="text"id="lname" name="lname" autocomplete="off" required><br>
+    <label for="gender">Gender</label><br>
+    </strong>
+    <input type="radio" name="gender" value="male" required>Male<br>
+    <input type="radio" name="gender" value="female" required>Female<br>
+    <a href="https://www.google.com">Reference</a>
+    <br>
+    <br>
+  
+    <label for="department">Department</label> <br>
+    <select>
+      <option value="it">IT</option>
+      <option value="cse">CSE</option>
+      <option value="eee">EEE</option>      
+      <option value="eie">EIE</option>
+      <option value="ece">ECE</option>
+      <option value="chem">Chemical</option>
+      <option value="food">Food</option>
+      <option value="mech">Mech</option>
+      <option value="mts">MTS</option>
+      <option value="ai">AI</option>
+      <option value="aiml">AIML</option>
+    </select>
+    <br>
+    <br>
+    <label for="course">Courses</label> <br>
+    <select >
+      <option value="ful">Full Stack Development</option>
+      <option value="adv">Advanced Java</option>
+      <option value="dsa">DSA</option>      
+      <option value="ml">ML</option>
+      <option value="ap">Advanced Python</option>
+    </select>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+
+    <br>
+    <br>
+    <input type="reset">
+    <br>
+  </form>
+  </div>
+</body>
+</html>
